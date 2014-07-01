@@ -11,5 +11,5 @@ setup(
 	ext_modules=[Extension("gdcm", glob("source/Common/*.cxx") + glob("source/DataDictionary/*.cxx") + glob("source/DataStructureAndEncodingDefinition/*.cxx") + glob("source/InformationObjectDefinition/*.cxx") + glob("source/MediaStorageAndFileFormat/*.cxx"))],
 	url='http://pypi.python.org/pypi/grassdcm/',
 	license='LICENSE',
-	headers=["source/Common", "source/DataDictionary", "source/DataStructureAndEncodingDefinition", "source/InformationObjectDefinition", "source/MediaStorageAndFileFormat"]
+	#headers=["source/Common/gdcmConfigure.h", "source/DataDictionary", "source/DataStructureAndEncodingDefinition", "source/InformationObjectDefinition", "source/MediaStorageAndFileFormat"]
 )
