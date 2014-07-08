@@ -876,7 +876,7 @@ int System::StrNCaseCmp(const char *s1, const char *s2, size_t n)
 #elif defined(GDCM_HAVE__STRNICMP)
   return _strnicmp(s1,s2,n);
 #else // default implementation
-#error
+//#error
   assert( n ); // TODO
   while (--n && *s1 && (tolower(*s1) == tolower(*s2)))
     {
@@ -895,7 +895,7 @@ int System::StrCaseCmp(const char *s1, const char *s2)
 #elif defined(GDCM_HAVE__STRNICMP)
   return _stricmp(s1,s2);
 #else // default implementation
-#error
+//#error
   while (*s1 && (tolower(*s1) == tolower(*s2)))
     {
     s1++;

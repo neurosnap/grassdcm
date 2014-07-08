@@ -8,8 +8,8 @@ setup(
 	author='Eric Bower',
 	author_email='neurosnap@gmail.com',
 	packages=find_packages(),
-	ext_modules=[Extension("gdcm", glob("source/Common/*.cxx") + glob("source/DataDictionary/*.cxx") + glob("source/DataStructureAndEncodingDefinition/*.cxx") + glob("source/InformationObjectDefinition/*.cxx") + glob("source/MediaStorageAndFileFormat/*.cxx"))],
+	ext_modules=[Extension("gdcm", glob("source/Common/*.cxx") + glob("source/DataDictionary/*.cxx") + glob("source/DataStructureAndEncodingDefinition/*.cxx") + glob("source/InformationObjectDefinition/*.cxx") + glob("source/MediaStorageAndFileFormat/*.cxx") + glob("source/Utilities/*.cxx"))], include_dirs=['source/Common/'],
 	url='http://pypi.python.org/pypi/grassdcm/',
 	license='LICENSE',
-	#headers=["source/Common/gdcmConfigure.h", "source/DataDictionary", "source/DataStructureAndEncodingDefinition", "source/InformationObjectDefinition", "source/MediaStorageAndFileFormat"]
 )
+# include_dirs=['source/Utilities/']

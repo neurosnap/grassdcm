@@ -2,4 +2,5 @@ graft source/Common/
 graft source/DataDictionary/
 graft source/DataStructureAndEncodingDefinition/
 graft source/InformationObjectDefinition/
-gradt source/MediaStorageAndFileFormat/
+graft source/MediaStorageAndFileFormat/
+graft source/Utilities/
