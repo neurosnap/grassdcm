@@ -50,7 +50,7 @@
 //#cmakedefine GDCM_USE_SYSTEM_UUID
 //#cmakedefine GDCM_USE_SYSTEM_POPPLER
 //#cmakedefine GDCM_USE_SYSTEM_LIBXML2
-//#cmakedefine GDCM_USE_SYSTEM_OPENSSL
+#define GDCM_USE_SYSTEM_OPENSSL
 //#cmakedefine GDCM_USE_SYSTEM_MD5
 //#cmakedefine GDCM_USE_SYSTEM_EXPAT
 //#cmakedefine GDCM_USE_SYSTEM_JSON
@@ -144,11 +144,11 @@
 /* GDCM Versioning                                                          */
 
 /* Version number.  */
-#define GDCM_MAJOR_VERSION @GDCM_MAJOR_VERSION@
-#define GDCM_MINOR_VERSION @GDCM_MINOR_VERSION@
-#define GDCM_BUILD_VERSION @GDCM_BUILD_VERSION@
-#define GDCM_VERSION "@GDCM_VERSION@"
-#define GDCM_API_VERSION "@GDCM_API_VERSION@"
+#define GDCM_MAJOR_VERSION 2
+#define GDCM_MINOR_VERSION 4
+#define GDCM_BUILD_VERSION 1
+#define GDCM_VERSION "2.4.1"
+#define GDCM_API_VERSION "1"
 
 /*
 #define GDCM_FILE_META_INFORMATION_VERSION "\0\1"

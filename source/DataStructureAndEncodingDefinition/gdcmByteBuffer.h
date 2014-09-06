@@ -19,7 +19,7 @@
 #include <assert.h>
 #include <string.h> // memmove
 
-#error should not be used
+//#error should not be used
 
 namespace gdcm
 {

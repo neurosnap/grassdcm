@@ -16,12 +16,12 @@
 
 /* Use the zlib library configured for gdcm.  */
 #include "gdcmTypes.h"
-#ifdef GDCM_USE_SYSTEM_ZLIB
+//#ifdef GDCM_USE_SYSTEM_ZLIB
 // $ dpkg -S /usr/include/zlib.h
 // zlib1g-dev: /usr/include/zlib.h
-# include <zlib.h>
-#else
+//# include <zlib.h>
+//#else
 # include <gdcmzlib/zlib.h>
-#endif
+//#endif
 
 #endif
